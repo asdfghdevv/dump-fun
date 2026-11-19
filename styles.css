@@ -238,13 +238,6 @@ kbd {
   color: var(--text);
 }
 
-.df-note {
-  max-width: 560px;
-  margin: 22px auto 0;
-  color: var(--muted);
-  font-size: 12px;
-}
-
 .df-section {
   max-width: 1240px;
   margin: 0 auto;
