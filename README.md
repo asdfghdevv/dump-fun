@@ -45,7 +45,7 @@ Dump Fun does **not** run inside GTA VI or on the PS5, and it never asks for you
 ## Run it
 
 ```bash
-git clone https://github.com/katiaearthxAi/dump-fun
+git clone https://github.com/asdfghdevv/dump-fun
 cd dump-fun
 npx serve .
 ```
