@@ -36,12 +36,6 @@ The terminal is built for one thumb. Add it to your home screen and it opens lik
 
 The phone photo is an AI concept scene with a real Dump Fun screen composited onto the display. The four screens are real captures of the live site.
 
-## It is not a game mod
-
-Dump Fun does **not** run inside GTA VI or on the PS5, and it never asks for your PSN account. GTA VI on PS5 does not allow mods or overlays. The phone photo on the site is a labeled AI concept scene, not gameplay.
-
-> **Be careful.** Any project that tells you to run an installer script, download a binary, or "link your PSN" to trade memecoins inside GTA VI is a red flag. Do not run it.
-
 ## Run it
 
 ```bash
