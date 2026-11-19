@@ -38,7 +38,7 @@ The phone photo is an AI concept scene with a real Dump Fun screen composited on
 
 ## It is not a game mod
 
-Dump Fun does **not** run inside GTA VI or on the PS5, and it never asks for your PSN account. GTA VI on PS5 does not allow mods or overlays. The GTA VI video on the site is a labeled AI concept of how it could feel as an in-game phone app, not gameplay.
+Dump Fun does **not** run inside GTA VI or on the PS5, and it never asks for your PSN account. GTA VI on PS5 does not allow mods or overlays. The phone photo on the site is a labeled AI concept scene, not gameplay.
 
 > **Be careful.** Any project that tells you to run an installer script, download a binary, or "link your PSN" to trade memecoins inside GTA VI is a red flag. Do not run it.
 
@@ -56,11 +56,11 @@ Then open the URL it prints. Any static file server works, including GitHub Page
 
 | Path | What it holds |
 | --- | --- |
-| `index.html` | The page: hero, terminal, concept video, how-to, FAQ |
+| `index.html` | The page: hero, terminal, mobile, how-to, FAQ |
 | `styles.css` | All styles |
 | `app.js` | Dexscreener data, rendering, Jupiter swap, keyboard and gamepad input, countdown |
 | `assets/` | Logo, icons, hero and share images |
-| `media/` | Concept video and the real screen-capture how-to video |
+| `media/` | Phone photo, mobile screens and the real screen-capture how-to video |
 
 ## Data and trading
 
