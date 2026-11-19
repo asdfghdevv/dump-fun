@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dump Fun · pump.fun on the couch</title>
+    <meta name="description" content="Live pump.fun memecoins on your big screen. Pick a coin with your controller, trade it with Phantom. Built for GTA VI night." />
+    <meta name="theme-color" content="#0d0610" />
+    <meta property="og:title" content="Dump Fun · pump.fun on the couch" />
+    <meta property="og:description" content="Live pump.fun memecoins on your big screen, controller-friendly, trade with Phantom. Built for GTA VI night." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.soge.si/" />
+    <meta property="og:image" content="https://www.soge.si/dumpfun/assets/og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Rubik+Mono+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="df-top">
+      <a class="df-brand" href="#top" aria-label="Dump Fun home">
+        <img src="assets/logo.svg" alt="" width="34" height="34" />
+        <span>Dump Fun</span>
+      </a>
+      <nav class="df-nav" aria-label="Sections">
+        <a href="#terminal">Terminal</a>
+        <a href="#concept">GTA VI concept</a>
+        <a href="#install">How to use</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com/katiaearthxAi/dump-fun" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+      <div class="df-clock" aria-live="polite">
+        <span class="df-dot"></span>
+        <span id="df-countdown">GTA VI night</span>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="df-hero">
+        <div class="df-hero-bg" aria-hidden="true"></div>
+        <div class="df-hero-inner">
+          <img class="df-hero-logo" src="assets/logo.svg" alt="Dump Fun red pill logo" width="168" height="168" />
+          <p class="df-kicker">Launching for GTA VI night</p>
+          <h1>Memecoins<br /><em>on the couch</em></h1>
+          <p class="df-lede">Live pump.fun coins on your big screen. Pick one with your controller, trade it with Phantom, and never put the pad down for long.</p>
+          <div class="df-actions">
+            <a class="df-btn df-btn-red" href="#terminal">Open the terminal</a>
+            <a class="df-btn" href="#concept">Watch the concept</a>
+            <a class="df-btn df-btn-ghost" href="https://github.com/katiaearthxAi/dump-fun" target="_blank" rel="noreferrer">Get it on GitHub</a>
+          </div>
+          <p class="df-note">Runs in your browser on a PC, phone or TV. It is a website, not a game mod: nothing touches your console, your game or your PSN account.</p>
+        </div>
+      </section>
+
+      <section class="df-section" id="terminal">
+        <div class="df-head">
+          <div>
+            <p class="df-kicker">Live from pump.fun</p>
+            <h2>The terminal</h2>
+          </div>
+          <p class="df-sub">pump.fun coins trending on Dexscreener, refreshed every 20 seconds. Use the D-pad or arrow keys to move, <kbd>✕</kbd> or <kbd>Enter</kbd> to trade, <kbd>○</kbd> or <kbd>Esc</kbd> to go back.</p>
+        </div>
+
+        <div class="df-term">
+          <div class="df-list-wrap">
+            <div class="df-tools">
+              <div class="df-tabs" role="tablist" aria-label="Sort coins">
+                <button type="button" role="tab" data-tab="trending" aria-selected="true">Trending</button>
+                <button type="button" role="tab" data-tab="movers" aria-selected="false">Movers</button>
+                <button type="button" role="tab" data-tab="new" aria-selected="false">New</button>
+              </div>
+              <form class="df-search" id="df-search" role="search">
+                <input id="df-q" type="search" placeholder="Search a ticker or paste a CA" autocomplete="off" spellcheck="false" />
+              </form>
+            </div>
+            <div class="df-row df-row-head" aria-hidden="true">
+              <span>#</span><span>Coin</span><span>Price</span><span>24h</span><span class="df-hide-sm">Volume</span><span>Mcap</span>
+            </div>
+            <div class="df-list" id="df-list" role="listbox" aria-label="Coins">
+              <p class="df-empty">Loading live coins…</p>
+            </div>
+            <p class="df-status" id="df-status"></p>
+          </div>
+
+          <aside class="df-detail" id="df-detail" aria-live="polite">
+            <div class="df-detail-empty">
+              <img src="assets/logo.svg" alt="" width="72" height="72" />
+              <p>Pick a coin to see its chart and trade it.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="df-section" id="concept">
+        <div class="df-head">
+          <div>
+            <p class="df-kicker">Concept render</p>
+            <h2>How it could look in GTA VI</h2>
+          </div>
+          <p class="df-sub">This is what Dump Fun would feel like as an in-game phone app. It is an AI concept, not gameplay: GTA VI has no mod support on PS5, so today Dump Fun lives on the screen next to the game.</p>
+        </div>
+        <div class="df-video">
+          <span class="df-badge">Concept · not a game mod</span>
+          <video src="media/concept.mp4" poster="media/concept.jpg" controls playsinline preload="metadata"></video>
+        </div>
+      </section>
+
+      <section class="df-section" id="install">
+        <div class="df-head">
+          <div>
+            <p class="df-kicker">No install needed</p>
+            <h2>How to use it</h2>
+          </div>
+          <p class="df-sub">Dump Fun is a web page. Open it, pick a coin, sign the trade in your own wallet.</p>
+        </div>
+        <div class="df-howto">
+          <ol class="df-steps">
+            <li><b>Open Dump Fun</b><span>On your phone, your PC or any browser next to the TV. Add it to your home screen if you want an app icon.</span></li>
+            <li><b>Plug in a controller</b><span>On a PC or Steam Deck, any pad works: D-pad to move, ✕ to trade, ○ to go back. On a phone, just tap.</span></li>
+            <li><b>Connect Phantom</b><span>Hit Trade, then connect your wallet in the swap box. Dump Fun never sees your keys.</span></li>
+            <li><b>Buy or sell</b><span>The swap is routed by Jupiter. You review it and sign it in Phantom. That is the whole flow.</span></li>
+          </ol>
+          <div class="df-video df-video-sm">
+            <span class="df-badge df-badge-green">Real app · screen capture</span>
+            <video src="media/how-to.mp4" poster="media/how-to.jpg" controls playsinline preload="metadata" muted></video>
+          </div>
+        </div>
+        <div class="df-code">
+          <p>Run your own copy. It is one folder of HTML, CSS and JavaScript, MIT licensed:</p>
+          <pre><code>git clone https://github.com/katiaearthxAi/dump-fun
+cd dump-fun
+npx serve .</code></pre>
+        </div>
+      </section>
+
+      <section class="df-section" id="faq">
+        <div class="df-head">
+          <div>
+            <p class="df-kicker">Straight answers</p>
+            <h2>FAQ</h2>
+          </div>
+        </div>
+        <div class="df-faq">
+          <details open>
+            <summary>Does it run inside GTA VI?</summary>
+            <p>No. GTA VI on PS5 does not allow mods or overlays. Anything that asks you to run an installer or "link your PSN" to trade inside the game is a red flag. Dump Fun is a website you keep open next to the game.</p>
+          </details>
+          <details>
+            <summary>Does it work on the PS5?</summary>
+            <p>The PS5 has no official web browser, so the console itself is not a supported screen. Use your phone, a PC or a smart TV browser beside it.</p>
+          </details>
+          <details>
+            <summary>Is it custodial? Do I need an account?</summary>
+            <p>No account and no custody. Trades go through Jupiter's swap widget and you sign every one in your own wallet. Dump Fun has no backend and stores nothing.</p>
+          </details>
+          <details>
+            <summary>Where does the data come from?</summary>
+            <p>Dexscreener's public API. Dump Fun shows Solana tokens whose address ends in "pump", the pump.fun mint suffix. Trending lists include promoted tokens, so do your own research.</p>
+          </details>
+          <details>
+            <summary>Is this affiliated with pump.fun, Rockstar or Sony?</summary>
+            <p>No. Dump Fun is an independent open-source project and a parody of the pump.fun name. GTA VI is a trademark of Take-Two Interactive.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="df-foot">
+      <img src="assets/logo.svg" alt="" width="28" height="28" />
+      <p>Dump Fun is open source. Memecoins are extremely risky: most go to zero. Nothing here is financial advice. Not affiliated with pump.fun, Rockstar Games, Take-Two Interactive or Sony Interactive Entertainment.</p>
+    </footer>
+
+    <div class="df-toast" id="df-toast" role="status" hidden></div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
