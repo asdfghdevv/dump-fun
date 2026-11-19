@@ -21,6 +21,21 @@ Dump Fun is a single web page that shows pump.fun coins trending right now and l
 - **Controller support.** D-pad or arrows to move, ✕ / Enter to trade, ○ / Esc to go back, L1 / R1 to switch tabs.
 - **No backend.** Plain HTML, CSS and JavaScript. No account, no custody, nothing stored.
 
+## On mobile
+
+The terminal is built for one thumb. Add it to your home screen and it opens like an app.
+
+![Dump Fun on a phone](media/gta-phone.jpg)
+
+<p align="center">
+  <img src="media/mobile-home.jpg" alt="Home" width="180" />
+  <img src="media/mobile-list.jpg" alt="Live coins" width="180" />
+  <img src="media/mobile-coin.jpg" alt="Coin page" width="180" />
+  <img src="media/mobile-trade.jpg" alt="Trade" width="180" />
+</p>
+
+The phone photo is an AI concept scene with a real Dump Fun screen composited onto the display. The four screens are real captures of the live site.
+
 ## It is not a game mod
 
 Dump Fun does **not** run inside GTA VI or on the PS5, and it never asks for your PSN account. GTA VI on PS5 does not allow mods or overlays. The GTA VI video on the site is a labeled AI concept of how it could feel as an in-game phone app, not gameplay.
