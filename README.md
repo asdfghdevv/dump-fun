@@ -6,7 +6,7 @@
 
 <p align="center"><b>pump.fun memecoins on the couch.</b><br />A live, controller-friendly pump.fun terminal for your big screen. Built for GTA VI night.</p>
 
-<p align="center"><a href="https://www.soge.si/">Live site</a> · <a href="#run-it">Run it</a> · <a href="#faq">FAQ</a></p>
+<p align="center"><a href="https://www.soge.si/dumpfun">Live site</a> · <a href="#run-it">Run it</a> · <a href="#faq">FAQ</a></p>
 
 ![Dump Fun](assets/og.jpg)
 
